@@ -31,7 +31,7 @@ export const Page05CasinoCase = () => {
                 <span className="text-2xl">💰</span>
                 <div>
                   <p className="text-sm text-muted-foreground">피해 규모</p>
-                  <p className="text-xl font-bold text-foreground">~$22,000</p>
+                  <p className="text-xl font-bold text-foreground">~$24,000</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">

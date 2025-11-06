@@ -39,13 +39,12 @@ export const Page17Closing = () => {
               영원합니다
             </p>
             <p className="text-3xl md:text-4xl font-light text-foreground/90">
-              우리는 그 발자국을 읽는 법을 배우고<br />
-              허점을 찌를 뿐입니다
+              :)<br />
             </p>
           </div>
         </div>
 
-        <div className="pt-16">
+        <div className="pt-4">
           <div className="inline-block border-gradient rounded-3xl px-16 py-8 hover:shadow-[0_0_60px_hsl(var(--primary)/0.5)] transition-all duration-300">
             <p className="text-4xl md:text-5xl font-bold text-gradient glow-text">
               Q&A
@@ -53,9 +52,9 @@ export const Page17Closing = () => {
           </div>
         </div>
 
-        <div className="pt-8">
+        <div className="pt-2">
           <p className="text-sm text-muted-foreground italic">
-            (아, 물론 "제가 직접 해봤는데..." 식의 질문은 정중히 사양합니다 😊)
+            (편하게 질문 주세요. 최대한 답변 해보겠습니다. 😊)
           </p>
         </div>
 

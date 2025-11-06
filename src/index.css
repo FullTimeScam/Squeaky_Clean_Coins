@@ -8,43 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 25% 8%;
+    --background: 222 47% 7%;
     --foreground: 210 40% 98%;
 
-    --card: 220 20% 12%;
+    --card: 222 40% 10%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 220 20% 12%;
+    --popover: 222 40% 10%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 195 100% 50%;
-    --primary-foreground: 220 25% 8%;
+    --primary: 267 84% 64%;
+    --primary-foreground: 210 40% 98%;
 
-    --secondary: 280 80% 60%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 195 100% 50%;
+    --secondary-foreground: 222 47% 7%;
 
-    --muted: 220 15% 20%;
+    --muted: 222 30% 15%;
     --muted-foreground: 215 20% 65%;
 
-    --accent: 320 85% 60%;
+    --accent: 280 100% 70%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 85% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 15% 20%;
-    --input: 220 15% 20%;
-    --ring: 195 100% 50%;
+    --border: 222 30% 18%;
+    --input: 222 30% 18%;
+    --ring: 267 84% 64%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
-    /* Custom variables for presentation */
-    --neon-cyan: 195 100% 50%;
-    --neon-purple: 280 80% 60%;
-    --neon-pink: 320 85% 60%;
-    --gradient-cyber: linear-gradient(135deg, hsl(195 100% 50% / 0.2) 0%, hsl(280 80% 60% / 0.2) 100%);
-    --glow-cyan: 0 0 30px hsl(195 100% 50% / 0.5);
-    --glow-purple: 0 0 30px hsl(280 80% 60% / 0.5);
+    /* ZK Auctions inspired variables */
+    --purple-500: 267 84% 64%;
+    --purple-600: 267 84% 54%;
+    --cyan-400: 195 100% 50%;
+    --cyan-500: 195 100% 60%;
+    --gradient-primary: linear-gradient(135deg, hsl(267 84% 64%), hsl(195 100% 50%));
+    --gradient-accent: linear-gradient(135deg, hsl(280 100% 70%), hsl(195 100% 60%));
+    --glow-purple: 0 0 40px hsl(267 84% 64% / 0.6);
+    --glow-cyan: 0 0 40px hsl(195 100% 50% / 0.6);
   }
 }
 
@@ -65,30 +67,30 @@ All colors MUST be HSL.
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, hsl(var(--neon-cyan)), hsl(var(--neon-purple)));
+    background: linear-gradient(135deg, hsl(var(--purple-500)), hsl(var(--cyan-400)));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
-  .text-gradient-pink {
-    background: linear-gradient(135deg, hsl(var(--neon-purple)), hsl(var(--neon-pink)));
+  .text-gradient-reverse {
+    background: linear-gradient(135deg, hsl(var(--cyan-400)), hsl(var(--purple-500)));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
-  .glow-cyan {
-    text-shadow: var(--glow-cyan);
+  .glow-text {
+    filter: drop-shadow(0 0 20px hsl(var(--purple-500) / 0.5));
   }
 
-  .glow-purple {
-    text-shadow: var(--glow-purple);
+  .card-glow {
+    box-shadow: 0 0 40px -10px hsl(var(--purple-500) / 0.3);
   }
 
   .border-gradient {
     border: 2px solid transparent;
     background: linear-gradient(hsl(var(--background)), hsl(var(--background))) padding-box,
-                linear-gradient(135deg, hsl(var(--neon-cyan)), hsl(var(--neon-purple))) border-box;
+                var(--gradient-primary) border-box;
   }
 }

@@ -1,9 +1,15 @@
 import { Section } from "../Section";
 import { Card } from "@/components/ui/card";
+import { ImageModal } from "../ImageModal"; // ImageModal 임포트
 
 export const Page12RailgunHow = () => {
   return (
     <Section id="page12" className="relative">
+      {/* 이 div가 섹션의 메인 컨텐츠 영역입니다.
+        (max-w-6xl mx-auto)
+        이 div에 "relative"가 이미 적용되어 있으므로,
+        이 안에 "absolute"로 이미지 모달을 배치합니다.
+      */}
       <div className="relative space-y-12 max-w-6xl mx-auto">
         <div className="text-center space-y-4">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient">
@@ -13,6 +19,9 @@ export const Page12RailgunHow = () => {
             "어떻게 흔적을 지우는가?"
           </p>
         </div>
+
+        {/* 이전에 제가 잘못 추가했던 중앙의 큰 이미지 카드를 제거했습니다.
+        */}
 
         <div className="grid md:grid-cols-3 gap-6">
           <Card className="bg-card/50 border-primary/30 p-8 space-y-6 hover:border-primary/60 transition-all duration-300 card-glow">
@@ -64,6 +73,20 @@ export const Page12RailgunHow = () => {
             <span className="text-sm text-muted-foreground">(Anonymity Set)</span>
           </p>
         </Card>
+
+        {/* --- 추가된 이미지 모달 (우측 하단) --- */}
+        {/* "relative space-y-12 max-w-6xl mx-auto" div 내부에 있으므로
+          컨텐츠 영역의 우측 하단에 배치됩니다.
+        */}
+        <div className="absolute bottom-0 right-0 z-20 hover:scale-105 transition-transform duration-300">
+          <ImageModal
+            src="/img/how_works.png"
+            alt="작동 원리 다이어그램"
+            className="h-[135px] w-[135px] rounded-lg bg-white/70 p-2 shadow-lg"
+          />
+        </div>
+        {/* --- --- */}
+
       </div>
     </Section>
   );

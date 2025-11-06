@@ -1,3 +1,9 @@
+import {
+  Dialog,
+  DialogContent,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+
 export const Page01Intro = () => {
   return (
     // 이 <section>이 page01 스냅 포인트가 됩니다.
@@ -15,6 +21,30 @@ export const Page01Intro = () => {
             loading="lazy"
           />
         </div>
+
+        {/* QR 코드 - ImageModal 컴포넌트 대신 Dialog 로직을 직접 인라인으로 구현
+          - DialogContent의 className="max-w-4xl"로 크기 조절 (기본값 6xl)
+        */}
+        <Dialog>
+          <DialogTrigger asChild>
+            {/* 이것이 클릭 가능한 135x135 썸네일 이미지입니다. */}
+            <img
+              src="/img/QR.png"
+              alt="QR 코드"
+              className="absolute bottom-10 right-10 z-20 h-[135px] w-[135px] cursor-pointer rounded-lg bg-white/70 p-2 shadow-lg transition-transform duration-300 hover:scale-105"
+              loading="lazy"
+            />
+          </DialogTrigger>
+          {/* 이것이 팝업되는 모달 컨텐츠입니다. 크기를 max-w-4xl(6xl의 약 70%)로 조절했습니다. */}
+          <DialogContent className="max-w-2xl p-0 border-0">
+            <img
+              src="/img/QR.png"
+              alt="QR 코드 (확대)"
+              className="w-full h-auto rounded-lg"
+            />
+          </DialogContent>
+        </Dialog>
+
 
         {/* 하단 스크롤 유도 아이콘 */}
         <div className="absolute bottom-10 z-20 animate-bounce text-white/70">
@@ -36,9 +66,6 @@ export const Page01Intro = () => {
       </div>
 
       {/* --- 2. 텍스트 영역 (스크롤 후) --- */}
-      {/* 이 영역은 <Section> 컴포넌트의 기본 스타일(중앙 정렬)을 
-        그대로 수동으로 구현하여 "초기 버전"과 동일하게 보입니다.
-      */}
       <div className="relative flex min-h-screen w-full items-center justify-center px-6 md:px-12 py-20">
         
         {/* 기존 그라데이션 배경 */}

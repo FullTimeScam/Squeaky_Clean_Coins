@@ -17,7 +17,7 @@ export const Page13RailgunCase = () => {
         <Card className="bg-card/50 border-destructive/30 p-10 space-y-8">
           <div className="text-center">
             <div className="text-5xl mb-4">🎯</div>
-            <h3 className="text-3xl font-bold text-destructive">2023: Lazarus의 골든타임</h3>
+            <h3 className="text-3xl font-bold text-destructive">2023: Lazarus의 전성기 골든타임</h3>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -29,18 +29,19 @@ export const Page13RailgunCase = () => {
             </div>
 
             <div className="space-y-3 text-center">
-              <p className="text-sm text-muted-foreground">2023-11</p>
-              <p className="text-2xl font-bold text-foreground">Poloniex</p>
-              <p className="text-xl text-destructive">$10M</p>
-              <p className="text-sm text-muted-foreground">레일건 직행</p>
-            </div>
-
-            <div className="space-y-3 text-center">
               <p className="text-sm text-muted-foreground">2023-09</p>
               <p className="text-2xl font-bold text-foreground">Stake·CoinEx</p>
               <p className="text-xl text-destructive">$XXM</p>
               <p className="text-sm text-muted-foreground">1,000 ETH 단위 분할</p>
             </div>
+            
+            <div className="space-y-3 text-center">
+              <p className="text-sm text-muted-foreground">2023-11</p>
+              <p className="text-2xl font-bold text-foreground">Poloniex</p>
+              <p className="text-xl text-destructive">$10M</p>
+              <p className="text-sm text-muted-foreground">분할X / 레일건 직행</p>
+            </div>
+
           </div>
         </Card>
 

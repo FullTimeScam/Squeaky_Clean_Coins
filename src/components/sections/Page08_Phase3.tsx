@@ -12,8 +12,11 @@ export const Page08_Phase3 = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 items-start">
-          <Card className="bg-card/50 border-secondary/30 p-8 space-y-6">
+        {/* --- 2x2 Grid Layout --- */}
+        <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-6 items-stretch">
+          
+          {/* Quadrant 2 (Top-Left): Text Content */}
+          <Card className="bg-card/50 border-secondary/30 p-8 space-y-6 md:col-start-1 md:row-start-1">
             <div className="flex items-center gap-4">
               <div className="text-4xl">🔄</div>
               <div>
@@ -36,14 +39,36 @@ export const Page08_Phase3 = () => {
             </div>
           </Card>
 
-          <Card className="bg-card/50 border-border/30 p-4">
+          {/* Quadrant 1 (Top-Right): Image 1 */}
+          <Card className="bg-card/50 border-border/30 p-4 md:col-start-2 md:row-start-1 flex items-center justify-center">
             <ImageModal
-              src="/img/phase3-trace.png"
-              alt="Phase 3 추적 이미지"
-              className="rounded-lg"
+              src="/img/phase3-1-trace.png"
+              alt="Phase 3-1 추적 이미지"
+              className="rounded-lg w-full h-full object-cover"
             />
           </Card>
+
+          {/* Quadrant 3 (Bottom-Left): Image 2 */}
+          <Card className="bg-card/50 border-border/30 p-4 md:col-start-1 md:row-start-2 flex items-center justify-center">
+            <ImageModal
+              src="/img/phase3-2-trace.png"
+              alt="Phase 3-2 추적 이미지"
+              className="rounded-lg w-full h-full object-cover"
+            />
+          </Card>
+
+          {/* Quadrant 4 (Bottom-Right): Image 3 */}
+          <Card className="bg-card/50 border-border/30 p-4 md:col-start-2 md:row-start-2 flex items-center justify-center">
+            <ImageModal
+              src="/img/phase3-3-trace.png"
+              alt="Phase 3-3 추적 이미지"
+              className="rounded-lg w-full h-full object-cover"
+            />
+          </Card>
+
         </div>
+        {/* --- End 2x2 Grid --- */}
+
       </div>
     </Section>
   );

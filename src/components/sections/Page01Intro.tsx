@@ -8,13 +8,13 @@ export const Page01Intro = () => {
       <div className="relative space-y-12 text-center">
         <div className="space-y-6">
           <h1 className="text-7xl md:text-9xl font-bold text-gradient glow-text leading-tight">
-            💸 코인 세탁소
+            💸 깨끗한 코인!
           </h1>
           <h2 className="text-4xl md:text-6xl font-bold text-gradient-reverse">
-            특급 레시피?
+            뽀득 뽀득
           </h2>
           <p className="text-2xl md:text-3xl text-foreground/70 font-light">
-            (feat. 잡았다 요놈!)
+            최신 콤-퓨타 세탁 합니다
           </p>
         </div>
 

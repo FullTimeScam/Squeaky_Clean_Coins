@@ -8,13 +8,13 @@ export const IntroSection = () => {
       <div className="relative space-y-8 text-center">
         <div className="space-y-4">
           <h1 className="text-6xl md:text-8xl font-bold text-gradient glow-cyan">
-            💸 코인 세탁소
+            💸 깨끗한 코인!
           </h1>
           <p className="text-3xl md:text-4xl text-gradient-pink font-semibold">
-            특급 레시피?
+            뽀득 뽀득
           </p>
           <p className="text-xl md:text-2xl text-muted-foreground">
-            (feat. 잡았다 요놈!)
+            최신 콤-퓨타 세탁 합니다
           </p>
         </div>
 

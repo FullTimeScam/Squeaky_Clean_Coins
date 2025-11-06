@@ -55,7 +55,7 @@ export const Page05CasinoCase = () => {
                 <span className="text-2xl">🔐</span>
                 <div>
                   <p className="text-sm text-muted-foreground">침투 방식</p>
-                  <p className="text-xl font-bold text-foreground">2FA 하이재킹</p>
+                  <p className="text-xl font-bold text-foreground">세션 하이재킹</p>
                 </div>
               </div>
             </div>

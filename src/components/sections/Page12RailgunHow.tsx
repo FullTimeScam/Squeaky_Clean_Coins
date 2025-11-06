@@ -1,9 +1,9 @@
 import { Section } from "../Section";
 import { Card } from "@/components/ui/card";
 
-export const Page10RailgunHow = () => {
+export const Page12RailgunHow = () => {
   return (
-    <Section id="page10" className="relative">
+    <Section id="page12" className="relative">
       <div className="relative space-y-12 max-w-6xl mx-auto">
         <div className="text-center space-y-4">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient">

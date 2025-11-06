@@ -1,9 +1,9 @@
 import { Section } from "../Section";
 import { Card } from "@/components/ui/card";
 
-export const Page13ResponseImmediate = () => {
+export const Page15ResponseImmediate = () => {
   return (
-    <Section id="page13" className="relative">
+    <Section id="page15" className="relative">
       <div className="relative space-y-12 max-w-5xl mx-auto">
         <div className="text-center space-y-6">
           <h2 className="text-5xl md:text-7xl font-bold text-gradient glow-text">

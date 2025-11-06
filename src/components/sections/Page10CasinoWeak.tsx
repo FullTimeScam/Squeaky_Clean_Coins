@@ -1,9 +1,9 @@
 import { Section } from "../Section";
 import { Card } from "@/components/ui/card";
 
-export const Page08CasinoWeak = () => {
+export const Page10CasinoWeak = () => {
   return (
-    <Section id="page08" className="relative">
+    <Section id="page10" className="relative">
       <div className="relative space-y-12 max-w-5xl mx-auto">
         <div className="text-center space-y-6">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient">

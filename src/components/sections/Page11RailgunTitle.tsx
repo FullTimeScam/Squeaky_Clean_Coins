@@ -1,8 +1,8 @@
 import { Section } from "../Section";
 
-export const Page09RailgunTitle = () => {
+export const Page11RailgunTitle = () => {
   return (
-    <Section id="page09" className="relative">
+    <Section id="page11" className="relative">
       <div className="absolute inset-0 bg-gradient-to-br from-secondary/10 via-transparent to-primary/10" />
       
       <div className="relative text-center space-y-12">

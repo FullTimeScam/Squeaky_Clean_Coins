@@ -1,16 +1,16 @@
 import { Section } from "../Section";
 import { Card } from "@/components/ui/card";
 
-export const Page11RailgunCase = () => {
+export const Page13RailgunCase = () => {
   return (
-    <Section id="page11" className="relative">
+    <Section id="page13" className="relative">
       <div className="relative space-y-12 max-w-5xl mx-auto">
         <div className="text-center space-y-6">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient">
-            선수 입장!
+            선수 입장! (초기 성공 사례)
           </h2>
           <p className="text-xl text-muted-foreground">
-            Lazarus & Co.
+            POI(PPI) 도입 이전, Lazarus 등은 Railgun을 통해 성공적으로 자금을 세탁했습니다.
           </p>
         </div>
 

@@ -1,8 +1,8 @@
 import { Section } from "../Section";
 
-export const Page15Closing = () => {
+export const Page17Closing = () => {
   return (
-    <Section id="page15" className="relative">
+    <Section id="page17" className="relative">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10" />
       
       <div className="relative space-y-16 text-center max-w-4xl mx-auto">

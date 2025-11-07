@@ -7,7 +7,7 @@ export const Page14RailgunCase = () => {
       <div className="relative space-y-12 max-w-5xl mx-auto">
         <div className="text-center space-y-6">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient">
-            선수 입장! (초기 성공 사례)
+            선수 입장! (세탁 대성공! 초기 사례)
           </h2>
           <p className="text-xl text-muted-foreground">
             POI(PPI) 도입 이전, Lazarus 등은 Railgun을 통해 성공적으로 자금을 세탁했습니다.

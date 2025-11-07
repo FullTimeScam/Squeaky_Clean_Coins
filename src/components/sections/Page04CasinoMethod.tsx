@@ -13,7 +13,7 @@ export const Page04CasinoMethod = () => {
     { num: "2", title: "칩 전환", desc: "코인 → 카지노 고유 칩 (추적 단절)", emoji: "🎲", img: "/img/casino/BCgame_chips.png" },
     { num: "3", title: "짧은 플레이", desc: "'정상' 게임 활동으로 위장", emoji: "🃏", img: "/img/casino/BCgame_games.png" },
     { num: "4", title: "분할 출금", desc: "100억 → 1억씩 100번", emoji: "💸", img: "/img/casino/BCgame_withdrawal.png" },
-    { num: "5", title: "교환 출금", desc: "ETH → XMR, TRX", emoji: "🔄", img: "/img/casino/BCgame_withdrawal.png" },
+    { num: "5", title: "교환 출금", desc: "ETH → XMR, ZEC...", emoji: "🔄", img: "/img/casino/BCgame_withdrawal.png" },
     { num: "6", title: "체인 이동", desc: "이더리움 → 솔라나", emoji: "⛓️", img: "/img/casino/step6.png" },
   ];
 

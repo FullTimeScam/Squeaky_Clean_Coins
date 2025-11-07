@@ -18,7 +18,7 @@ export const Page03CasinoTitle = () => {
 
         <div className="pt-8">
           <p className="text-3xl md:text-4xl text-foreground/70 font-light">
-            KYC 없는 크립토 카지노
+            크립토 카지노
           </p>
           <p className="text-xl md:text-2xl text-muted-foreground pt-4">
             "입금은 자유, 출금은... 더 자유?"

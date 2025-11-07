@@ -96,6 +96,11 @@ export const Page01Intro = () => {
                 골든타임 대응법
               </p>
             </div>
+          <div className="inline-block border-gradient rounded-2xl px-8 py-4">
+            <p className="text-lg text-primary font-mono">
+              7팀 박지환 / 육은서 / 신세종
+            </p>
+          </div>
           </div>
           
         </div>

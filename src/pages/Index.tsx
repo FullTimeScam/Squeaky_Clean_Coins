@@ -11,11 +11,14 @@ import { Page09_Phase4_5 } from "@/components/sections/Page09_Phase4-5";
 import { Page10CasinoWeak } from "@/components/sections/Page10CasinoWeak";
 import { Page11RailgunTitle } from "@/components/sections/Page11RailgunTitle";
 import { Page12RailgunHow } from "@/components/sections/Page12RailgunHow";
-import { Page13RailgunCase } from "@/components/sections/Page13RailgunCase";
-import { Page14RailgunPOI } from "@/components/sections/Page14RailgunPOI";
-import { Page15ResponseImmediate } from "@/components/sections/Page15ResponseImmediate";
-import { Page16ResponseTrack } from "@/components/sections/Page16ResponseTrack";
-import { Page17Closing } from "@/components/sections/Page17Closing";
+// --- 신규 페이지 추가 ---
+import { Page13RailgunDemo } from "@/components/sections/Page13RailgunDemo";
+// --- 기존 페이지 +1 로드 ---
+import { Page14RailgunCase } from "@/components/sections/Page14RailgunCase";
+import { Page15RailgunPOI } from "@/components/sections/Page15RailgunPOI";
+import { Page16ResponseImmediate } from "@/components/sections/Page16ResponseImmediate";
+import { Page17ResponseTrack } from "@/components/sections/Page17ResponseTrack";
+import { Page18Closing } from "@/components/sections/Page18Closing";
 
 const Index = () => {
   return (
@@ -33,11 +36,12 @@ const Index = () => {
       <Page10CasinoWeak />
       <Page11RailgunTitle />
       <Page12RailgunHow />
-      <Page13RailgunCase />
-      <Page14RailgunPOI />
-      <Page15ResponseImmediate />
-      <Page16ResponseTrack />
-      <Page17Closing />
+      <Page13RailgunDemo />
+      <Page14RailgunCase />
+      <Page15RailgunPOI />
+      <Page16ResponseImmediate />
+      <Page17ResponseTrack />
+      <Page18Closing />
     </div>
   );
 };

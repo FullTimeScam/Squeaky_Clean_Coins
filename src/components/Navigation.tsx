@@ -19,6 +19,7 @@ const sections = [
   { id: "page15", label: "15" },
   { id: "page16", label: "16" },
   { id: "page17", label: "17" },
+  { id: "page18", label: "18" },
 ];
 
 export const Navigation = () => {

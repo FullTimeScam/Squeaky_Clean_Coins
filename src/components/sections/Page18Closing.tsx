@@ -7,9 +7,9 @@ import {
 } from "@/components/ui/dialog";
 
 
-export const Page17Closing = () => {
+export const Page18Closing = () => {
   return (
-    <Section id="page17" className="relative">
+    <Section id="page18" className="relative">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10" />
       
       {/* 이 div가 섹션의 메인 컨텐츠 영역입니다.

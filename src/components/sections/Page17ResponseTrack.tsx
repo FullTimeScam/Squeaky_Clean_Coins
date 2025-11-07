@@ -1,9 +1,9 @@
 import { Section } from "../Section";
 import { Card } from "@/components/ui/card";
 
-export const Page16ResponseTrack = () => {
+export const Page17ResponseTrack = () => {
   return (
-    <Section id="page16" className="relative">
+    <Section id="page17" className="relative">
       <div className="relative space-y-12 max-w-6xl mx-auto">
         <div className="text-center space-y-6">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient">

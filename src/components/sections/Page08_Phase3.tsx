@@ -27,7 +27,7 @@ export const Page08_Phase3 = () => {
 
             <div className="space-y-4 pl-14">
               <p className="text-xl text-foreground/90">
-                "14일 후, 해커가 다시 움직입니다. SOL을 '현금'으로 바꿉니다"
+                "14일 후, 해커가 다시 움직입니다. SOL을 '스테이블 코인'으로 바꿉니다"
               </p>
 
               <div className="space-y-2 text-base text-muted-foreground">

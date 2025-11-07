@@ -32,7 +32,7 @@ export const Page06_Phase1 = () => {
                 <p>• 22:38 → 지갑 A로 <span className="text-foreground">27.5 SOL</span> 추가</p>
                 <p>• 22:47 → 지갑 A로 <span className="text-foreground">4.7 SOL</span> 추가</p>
                 <p>• 22:49 → SPL 토큰들 전송 완료</p>
-                <p className="pt-2 text-primary font-semibold">총 115.7 SOL + 토큰 집결 완료</p>
+                <p className="pt-2 text-primary font-semibold">총 115.7 SOL + 토큰 집결 완료 (총 약 130 SOL)</p>
               </div>
             </div>
           </Card>

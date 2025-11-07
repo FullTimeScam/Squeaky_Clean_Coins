@@ -30,7 +30,7 @@ export const Page07_Phase2 = () => {
             <div className="space-y-3 text-base text-muted-foreground">
               <p>• 09:54 (08-19) → 지갑 A → 지갑 B로 <span className="text-foreground">66.1 SOL</span> 이동</p>
               <p>• 지갑 A에는 <span className="text-foreground">49.6 SOL</span> 그대로 보관</p>
-              <p className="pt-2 text-accent">→ 추적 툴의 시간 기반 분석 회피</p>
+              <p className="pt-2 text-accent">→ 추적 툴의 시간 기반 분석 회피 + 추가 범행 중으로 추정</p>
             </div>
           </div>
         </Card>

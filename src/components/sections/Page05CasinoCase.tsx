@@ -10,7 +10,7 @@ export const Page05CasinoCase = () => {
             실제 사례
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground">
-            "한 투자자의 지갑이 털렸습니다"
+            "한 투자자의 거래소 계정과 지갑이 털렸습니다"
           </p>
           <p className="text-lg text-foreground/60">
             2025년 8~9월, 실제 온체인 포렌식
